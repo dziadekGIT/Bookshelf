@@ -1,0 +1,5 @@
+# ninja log v5
+7	76	1700388726884486271	build.ninja	581788d93c3baa54
+6	742	1700384912467376902	CMakeFiles/Bookshelf_v01_cpp.dir/main.cpp.o	ddad879d8e4fcf6c
+742	937	1700384912662481175	Bookshelf_v01_cpp	2bbb5fbfc4849702
+17	629	1700239899128607820	CMakeFiles/Bookshelf_v01_cpp.dir/Menu.cpp.o	6f044fa5428861b8

@@ -1,0 +1,3 @@
+/Users/espastudio/Desktop/BOOKSHELF_00/Bookshelf_v01.cpp/src/cmake-build-debug/CMakeFiles/Bookshelf_v01_cpp.dir
+/Users/espastudio/Desktop/BOOKSHELF_00/Bookshelf_v01.cpp/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/espastudio/Desktop/BOOKSHELF_00/Bookshelf_v01.cpp/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
