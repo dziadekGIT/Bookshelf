@@ -9,8 +9,7 @@ void Menu::menu()
     int chose;
     do
     {
-
-        cout << "Menu: "<<endl<<"------------------------\n";
+        cout << "Menu: \n"<<"------------------------\n";
         cout << " 1. Wypisz listę książek\n";
         cout << " 2. Dodaj książkę\n";
         cout << " 3. Usuń książkę\n";
@@ -33,35 +32,30 @@ void Menu::menu()
             {
                 library.addBook();
 
-                break;
+                continue;
             }
-
             case 3:
             {
                 cout << "Funkcjonalność w produkcji";
-                break;
+                continue;
             }
-
             case 4:
             {
-                cout << "Funkcjonalność w produkcji";
-                break;
+                library.saveBook();
+                continue;
             }
-
             case 5:
             {
-                cout << "Funkcjonalność w produkcji";
-                break;
+                library.loadBook();
+                continue;
             }
-
             case 6:
             {
-                break;
+
+                continue;
             }
 
         }
     }
     while (chose !=6);
-
-
 }

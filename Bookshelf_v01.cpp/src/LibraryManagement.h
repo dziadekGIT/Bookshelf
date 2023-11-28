@@ -7,15 +7,38 @@
 #include <utility>
 
 using namespace std;
-
+/**
+ * @brief Klasa obsługująca bibliotekę.
+ *
+ * Dodawanie, wczytywanie, zapisywyanie i wyświetlanie biblioteki.
+ *
+ */
 
 
 class LibraryManagement
 {
 public:
 
-    void printBook();
+    static void printBook();
+    /**
+     * @brief printBook()-  wyświetla bibliotekę na ekranie
+     *
+     */
     void addBook();
+    /**
+     * @brief addBook()- przyjmuje dane od użytkownika i dodaje książkę do pamięci.
+     *
+     */
+    static void saveBook();
+    /**
+     * @brief saveBook()- zapisuje książki z pamięci (przechowywane w unordered map) do pliku txt.
+     *
+     */
+    void loadBook();
+    /**
+     * @brief loadBook()- wczytuje książki z pliku txt do pamięci (unoredered map).
+     *
+     */
 };
 
 

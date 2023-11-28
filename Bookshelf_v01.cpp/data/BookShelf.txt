@@ -1,0 +1,13 @@
+-------------
+Java: Efektywne Programowanie
+Joshua Bloch
+2008
+-------------
+Czysty Kod
+Robert C. Martin
+2013
+-------------
+Zrozumieć Programowanie
+Gynavael Coldwind
+2017
+-------------
